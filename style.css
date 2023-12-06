@@ -6,7 +6,7 @@ body{
     background-color: white;
 }
 
-/* Header dan Navbar */
+
 header{
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@ header  .logo img{
 }
 
 header nav ul{
-    /* FLEXBOX */
+    
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,11 +44,9 @@ header nav ul li a{
 
 header nav ul li button{
     background-color: transparent;
-    /* border: none; */
     border: 1px solid grey;
     width: 150px;
     height: 30px;
-    /* color: white; */
     border-radius: 360px;
     text-align: left;
     cursor: text;
@@ -101,7 +99,7 @@ header nav ul li a{
 /* Konten */
 
 main{
-    background-image: url(images/space.gif);
+    background-image: url(space.gif);
     background-size: cover;
     height: 500px;
     color: white;
@@ -196,7 +194,7 @@ main .mainKonten input{
     background-color: rgb(10, 10, 11);
 }
 
-/* Footer */
+
 footer{
     background-color: rgb(37, 37, 43);
     bottom: 0;
@@ -243,7 +241,6 @@ footer .main{
 }
 
 footer .wrap{
-    /* background-color: white; */
     width: 65%;
     display: flex;
     flex-direction: column;
